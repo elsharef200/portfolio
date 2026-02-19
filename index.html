@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahmed | Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section id="hero">
+        <div class="hero-content">
+            <img src="Ahmed.jpeg" alt="Ahmed Photo">
+            <h1>Ahmed</h1>
+            <h2>Frontend Developer</h2>
+            <p>I build responsive and interactive web applications.</p>
+            <button onclick="scrollToProjects()">View My Work</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science student passionate about web development. My goal is to become a professional full-stack developer.</p>
+
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Loan Calculator</h3>
+                <p>Problem solved: Financial planning for monthly repayments.</p>
+                <p>Tech: HTML, CSS, JavaScript</p>
+                <a href="#">GitHub Link</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator">
+        <h2>Loan Calculator</h2>
+        <div class="calc-box">
+            <input type="number" id="amount" placeholder="Loan Amount">
+            <input type="number" id="interest" placeholder="Interest Rate (%)">
+            <input type="number" id="months" placeholder="Months">
+            <button onclick="calculateLoan()">Calculate</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: Elsharef200@gmail.com</p>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="mains.js"></script>
+</body>
+</html>
